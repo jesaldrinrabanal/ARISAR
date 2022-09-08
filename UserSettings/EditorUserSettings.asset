@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    RecentlyUsedSceneGuid-0:
+      value: 5150515306575d0d5f56097b16250e444e154d737e2c22657d7e4a66e6e3676a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5400520503570c0f5b5955751471064447164e78797b7168287f4e63bbe5316d
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 07570503070c085e5e5f552615265c44441519727e7b74677c284435e6e2376a
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 0752070357070d0e5b5b5d7640760a44424e4c7d7a7070672e281b32b2e3636c
+      flags: 0
+    RecentlyUsedScenePath-0:
+      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 224247031146466d081c18270800501c19053e2b3e25073e24241c3ff1af073be7e933faa83e3a31364cfa320d2a18
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646680e0b0227036c72111818136439262f2434
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646680e0b0227036c72151802563f22213229
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 224247031146464819011e3b122c501b59241d26292b32701e3d1221fbe23b37e9a923e7ee2e26
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 224247031146464819011e3b122c501b593f1d263c66333e243d04
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 224247031146464819011e3b122c501b59241d26292b32701e3d1221fbe23b37e9a767a7f234362820
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 224247031146464819011e3b122c501b59241d3e382128373e67083debf42d
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 224247031146464819011e3b122c501b593a1d243966333e243d04
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 224247031146464819011e3b122c501b593a1924232368252320092a
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 3
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 1
+  m_ArtifactGarbageCollection: 1
