@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelecStorybook : MonoBehaviour
+public class SelectStorybook : MonoBehaviour
 {
     public void SelectManok()
     {
