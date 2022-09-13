@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Movement : MonoBehaviour
 {
     public CharacterController controller;
     private Animator anim;
     public float speed = 6f;
-    public float turnsmooth = 0.1f;
+    public float turnsmooth = 3f;
     float turnSmoothVelocity;
+   
 
     Vector3 velocity;
     void Start()
@@ -40,4 +42,5 @@ public class Movement : MonoBehaviour
     {
         anim.SetBool("Run", true);
     }
+
 }
