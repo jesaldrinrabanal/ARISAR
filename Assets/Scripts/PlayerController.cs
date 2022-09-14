@@ -65,4 +65,16 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetBool("Run", true);
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("OBJECT DETECTED");
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Finish"))
+        {
+            Destroy(other.gameObject);
+            
+        }
+    }
 }
