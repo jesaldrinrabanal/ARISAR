@@ -9,6 +9,9 @@ public class AnswerScript : MonoBehaviour
     public GameObject tupa;
     public GameObject baka;
     public GameObject baboy;
+    public GameObject bibe;
+    public GameObject completed;
+
 
     public void Answer()
     {
@@ -16,6 +19,8 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("Correct Answer");
             quiz.gameObject.SetActive(false);
+            bibe.gameObject.SetActive(true);
+            completed.gameObject.SetActive(true);
         }
         else
         {
