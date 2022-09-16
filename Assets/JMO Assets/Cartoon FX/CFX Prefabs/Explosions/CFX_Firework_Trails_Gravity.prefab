@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 198405478074982118}
   - component: {fileID: 199773197783368204}
   - component: {fileID: 114756874033953806}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CFX_Firework_Trails_Gravity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
