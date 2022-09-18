@@ -5,13 +5,16 @@ using UnityEngine;
 public class Lastpage : MonoBehaviour
 {
     public GameObject complete;
-    public GameObject worng;
+    public GameObject wrong;
 
     public void Correct() {
         complete.gameObject.SetActive(true);
+        Destroy(wrong.gameObject);
+        Debug.Log("Correct!");
     }
     public void Wrong() {
-        worng.gameObject.SetActive(true);
+        wrong.gameObject.SetActive(true);
+        Debug.Log("Wrong!");
 
     }
 }
