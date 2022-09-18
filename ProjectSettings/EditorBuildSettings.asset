@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/storybook/Select Storybook 1.unity
     guid: df1eb9ae319deec42ba823271a9fdbc2
   - enabled: 1
-    path: Assets/storybook/Manok.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/storybook/Manok 2.unity
+    guid: 2bf669893b9e8a04cb4ead02aed512ac
   - enabled: 1
     path: Assets/storybook/Settings.unity
     guid: dc3e22d56514055449476867cafa0c74
