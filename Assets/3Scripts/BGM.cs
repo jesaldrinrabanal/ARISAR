@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BGM : MonoBehaviour
 {
-    private static BGM bgmusic;
+    public static BGM bgmusic;
     
     void Awake()
     {
@@ -15,6 +15,15 @@ public class BGM : MonoBehaviour
         }
         else
         {
+            Destroy(gameObject);
+        }
+    }
+    private void Update()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Manok 2")
+        {
+            // Stops playing music in level 1 scene
             Destroy(gameObject);
         }
     }

@@ -5,13 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class SelectStorybook : MonoBehaviour
 {
+
+
+ 
     public void SelectManok()
     {
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+      
     }
     public void SelectBack()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+       
     }
     public void Reload()
     {

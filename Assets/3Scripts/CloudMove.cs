@@ -6,7 +6,9 @@ public class CloudMove : MonoBehaviour
 {
     // Start is called before the first frame update
     public Transform target;
+   
     public float time;
+    
     void Start()
     {
         
@@ -17,6 +19,12 @@ public class CloudMove : MonoBehaviour
     {
         Vector3 a = transform.position;
         Vector3 b = target.position;
-        transform.position = Vector3.MoveTowards(a, b, time);
+        
+       
+            transform.position = Vector3.MoveTowards(a, b, time);
+        
+
+       
+      
     }
 }

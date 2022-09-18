@@ -6,20 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/storybook/Menu.unity
-    guid: 71fcfbe46797d2941a625378e6309ee5
+    path: Assets/2storybook/Update/Menu 1.unity
+    guid: 4b2cebffaa905364293d769ab292a043
   - enabled: 1
-    path: Assets/storybook/Select Storybook 1.unity
-    guid: df1eb9ae319deec42ba823271a9fdbc2
-  - enabled: 1
-    path: Assets/storybook/Manok 2.unity
+    path: Assets/2storybook/Manok 2.unity
     guid: 2bf669893b9e8a04cb4ead02aed512ac
-  - enabled: 1
-    path: Assets/storybook/Settings.unity
-    guid: dc3e22d56514055449476867cafa0c74
-  - enabled: 1
-    path: Assets/storybook/Help.unity
-    guid: cb19186a38860024d974f0e5b4fb6a15
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1d3ebaee9cb571e4ca2266800d5798b3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c21bdb7ea1e768c47962d2b02d818536, type: 2}
