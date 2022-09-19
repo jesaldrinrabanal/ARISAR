@@ -21,7 +21,7 @@ public class BGM : MonoBehaviour
     private void Update()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name == "Manok 2")
+        if (currentScene.name == "Manok 2"|| currentScene.name == "English")
         {
             // Stops playing music in level 1 scene
             Destroy(gameObject);
