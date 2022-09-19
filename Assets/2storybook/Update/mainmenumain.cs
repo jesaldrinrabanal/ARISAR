@@ -9,12 +9,16 @@ public class mainmenumain : MonoBehaviour
     public GameObject canvaseffect;
     public GameObject Setting;
     public GameObject Helps;
+    public GameObject Language;
+    
     public void StartApp()
     {
         Select.SetActive(true);
         Menu.SetActive(false);
         canvaseffect.SetActive(false);
     }
+   
+
     public void Settings()
     {
         Setting.SetActive(true);
@@ -45,9 +49,21 @@ public class mainmenumain : MonoBehaviour
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
     }
+    public void LangBack()
+    {
+        Language.SetActive(false);
+    }
     public void Manok()
     {
+        Language.SetActive(true);
+    }
+    public void ManokTagalog()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void ManokEnglish()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
     public void Quit()
     {

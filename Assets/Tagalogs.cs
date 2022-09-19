@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tagalogs : MonoBehaviour
 {
-    page1track bools;
+    
     public GameObject pages1;
     public GameObject pages2;
     public GameObject pages3;
@@ -14,15 +14,11 @@ public class Tagalogs : MonoBehaviour
     public GameObject pages7;
     public GameObject pages8;
     public GameObject pages9;
-    void Awake()
-    {
-        bools = new page1track();
-    }
-
+ 
 
    public void SelectTagalog()
     {
-        bools.GetComponent<page1track>().tag = true;
+       
         pages1.gameObject.SetActive(true);
         pages2.gameObject.SetActive(true);
         pages3.gameObject.SetActive(true);

@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2storybook/Manok 2.unity
     guid: 2bf669893b9e8a04cb4ead02aed512ac
+  - enabled: 1
+    path: Assets/2storybook/English.unity
+    guid: 9c56c12d975a04946a8445d1454ea1d4
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1d3ebaee9cb571e4ca2266800d5798b3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c21bdb7ea1e768c47962d2b02d818536, type: 2}

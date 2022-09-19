@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Englishs : MonoBehaviour
 {
-    page1track bools;
+
     public GameObject pages1;
     public GameObject pages2;
     public GameObject pages3;
@@ -15,16 +15,13 @@ public class Englishs : MonoBehaviour
     public GameObject pages8;
     public GameObject pages9;
 
-    void Awake()
-    {
-        bools = new page1track();
-    }
+
 
 
     // Update is called once per frame
     public void SelectEnglish()
     {
-        bools.GetComponent<page1track>().tag = false;
+        
         pages1.gameObject.SetActive(false);
         pages2.gameObject.SetActive(false);
         pages3.gameObject.SetActive(false);
