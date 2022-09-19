@@ -8,12 +8,17 @@ public class page1track : MonoBehaviour
     public  AudioSource p1;
 
 
-    private bool tag = false;
+    public bool tag=true;
     public void Play()
     {
-        if (tag == false)
+        if (tag == true)
         {
             p1.Play();
         }
+        else
+        {
+            Debug.Log("English cant tagalog");
+        }
     }
+
 }

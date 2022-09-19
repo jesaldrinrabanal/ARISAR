@@ -14,6 +14,12 @@ public class SelectStorybook : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
       
     }
+    public void ManokBack()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+    }
     public void SelectBack()
     {
         Subtitlewindow.gameObject.SetActive(false);
