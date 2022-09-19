@@ -8,6 +8,9 @@ public class PageTwo : MonoBehaviour
 
     public GameObject On;
     public GameObject joystick;
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag.Equals("Finish"))
@@ -15,6 +18,11 @@ public class PageTwo : MonoBehaviour
             Destroy(other.gameObject);
             On.gameObject.SetActive(true);
             joystick.gameObject.SetActive(false);
+           
+            //BUKAS
+            tagalogsbukas.gameObject.SetActive(true);
+            //SARADO
+            tagalogsarado.gameObject.SetActive(false);
         }
     }
 

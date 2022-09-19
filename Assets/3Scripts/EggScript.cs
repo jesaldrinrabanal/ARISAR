@@ -12,7 +12,8 @@ public class EggScript : MonoBehaviour
     public GameObject destroyObject;
     public GameObject completed;
     public int eggCount = 0;
-
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
     public void Update()
     {
         if (eggCount == 5)
@@ -20,6 +21,10 @@ public class EggScript : MonoBehaviour
             Debug.Log("Complete");
             destroy();
             completed.gameObject.SetActive(true);
+            //BUKAS
+            tagalogsbukas.gameObject.SetActive(true);
+            //SARADO
+            tagalogsarado.gameObject.SetActive(false);
         }
     }
     public void destroy()

@@ -20,6 +20,9 @@ public class Page4Controller : MonoBehaviour
     private FourPlayer playerInput;
     public GameObject farmboy;
     Animator otherAnimator;
+
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
     private void Awake()
     {
         playerInput = new FourPlayer();
@@ -73,6 +76,11 @@ public class Page4Controller : MonoBehaviour
                 playerSpeed = 0f;
             joystickimage.SetActive(false);
             otherAnimator.SetBool("Cheer", true);
+
+            //BUKAS
+            tagalogsbukas.gameObject.SetActive(true);
+            //SARADO
+            tagalogsarado.gameObject.SetActive(false);
         }
 
     }
