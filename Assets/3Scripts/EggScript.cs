@@ -14,6 +14,7 @@ public class EggScript : MonoBehaviour
     public int eggCount = 0;
     public GameObject tagalogsbukas;
     public GameObject tagalogsarado;
+    public AudioSource eatsound;
     public void Update()
     {
         if (eggCount == 5)
@@ -35,6 +36,7 @@ public class EggScript : MonoBehaviour
     {
         Debug.Log("Egg Found");
         eggCount++;
+        eatsound.Play();
     }
     public void Egg1()
     {

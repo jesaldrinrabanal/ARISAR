@@ -16,7 +16,7 @@ public class Page4Controller : MonoBehaviour
     public GameObject poster;
     public GameObject joystickimage;
     public GameObject smoke;
-  
+    public AudioSource eatsound;
     private FourPlayer playerInput;
     public GameObject farmboy;
     Animator otherAnimator;
@@ -96,6 +96,7 @@ public class Page4Controller : MonoBehaviour
             GameObject explosion = Instantiate(smoke, transform.position, transform.rotation);
             foodcount++;     
             anim.SetBool("Eat", true);
+            eatsound.Play();
         }
         
     }

@@ -17,4 +17,12 @@ public class nogame : MonoBehaviour
         text1.SetActive(false);
         text2.SetActive(true);
     }
+    public void Kist()
+    {
+        text1.SetActive(true);
+        text2.SetActive(false);
+
+    }
+  
+    
 }
