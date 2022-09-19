@@ -13,7 +13,7 @@ public class AnswerScript : MonoBehaviour
     public GameObject completed;
     public GameObject tagalogsbukas;
     public GameObject tagalogsarado;
-
+    
     public void Answer()
     {
         if(isCorrect)
@@ -22,7 +22,7 @@ public class AnswerScript : MonoBehaviour
             quiz.gameObject.SetActive(false);
             bibe.gameObject.SetActive(true);
             completed.gameObject.SetActive(true);
-
+           
             //BUKAS
             tagalogsbukas.gameObject.SetActive(true);
             //SARADO

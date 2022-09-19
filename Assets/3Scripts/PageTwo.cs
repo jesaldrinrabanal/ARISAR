@@ -23,6 +23,7 @@ public class PageTwo : MonoBehaviour
             tagalogsbukas.gameObject.SetActive(true);
             //SARADO
             tagalogsarado.gameObject.SetActive(false);
+            
         }
     }
 

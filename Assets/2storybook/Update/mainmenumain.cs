@@ -10,7 +10,7 @@ public class mainmenumain : MonoBehaviour
     public GameObject Setting;
     public GameObject Helps;
     public GameObject Language;
-    
+    public AudioSource closeSound;
     public void StartApp()
     {
         Select.SetActive(true);
@@ -30,12 +30,14 @@ public class mainmenumain : MonoBehaviour
         Setting.SetActive(false);
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
+        closeSound.Play();
     }
     public void SelectBack()
     {
         Select.SetActive(false);
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
+        closeSound.Play();
     }
     public void Help()
     {
@@ -48,10 +50,12 @@ public class mainmenumain : MonoBehaviour
         Helps.SetActive(false);
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
+        closeSound.Play();
     }
     public void LangBack()
     {
         Language.SetActive(false);
+        closeSound.Play();
     }
     public void Manok()
     {
