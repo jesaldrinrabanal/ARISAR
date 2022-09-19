@@ -8,9 +8,12 @@ public class page1track : MonoBehaviour
     public  AudioSource p1;
 
 
-
+    private bool tag = false;
     public void Play()
     {
-        p1.Play();
+        if (tag == true)
+        {
+            p1.Play();
+        }
     }
 }
