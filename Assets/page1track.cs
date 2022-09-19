@@ -11,7 +11,7 @@ public class page1track : MonoBehaviour
     private bool tag = false;
     public void Play()
     {
-        if (tag == true)
+        if (tag == false)
         {
             p1.Play();
         }

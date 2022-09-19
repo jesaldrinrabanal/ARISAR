@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SelectStorybook : MonoBehaviour
 {
 
-
+    public GameObject Subtitlewindow;
  
     public void SelectManok()
     {
@@ -16,12 +16,12 @@ public class SelectStorybook : MonoBehaviour
     }
     public void SelectBack()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-       
+        Subtitlewindow.gameObject.SetActive(false);
+
     }
     public void SelectSubtitle()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        Subtitlewindow.gameObject.SetActive(true);
     }
     public void Reload()
     {
