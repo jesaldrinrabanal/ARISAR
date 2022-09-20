@@ -7,7 +7,9 @@ public class SelectStorybook : MonoBehaviour
 {
 
     public GameObject Subtitlewindow;
- 
+    public AudioSource home;
+    public AudioSource reload;
+
     public void SelectManok()
     {
         
@@ -16,15 +18,14 @@ public class SelectStorybook : MonoBehaviour
     }
     public void ManokBack()
     {
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        home.Play();
 
     }
     public void ManokBackEng()
     {
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
-
+        home.Play();
     }
     public void SelectBack()
     {
@@ -38,5 +39,6 @@ public class SelectStorybook : MonoBehaviour
     public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        reload.Play();
     }
 }
