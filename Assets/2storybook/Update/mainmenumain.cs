@@ -69,6 +69,11 @@ public class mainmenumain : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
+    public void Matanda()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
     public void Quit()
     {
         Debug.Log("QUIT!");
