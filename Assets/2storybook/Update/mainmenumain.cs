@@ -10,6 +10,7 @@ public class mainmenumain : MonoBehaviour
     public GameObject Setting;
     public GameObject Helps;
     public GameObject Language;
+    public GameObject Language2;
     public AudioSource closeSound;
     public void StartApp()
     {
@@ -71,7 +72,15 @@ public class mainmenumain : MonoBehaviour
     }
     public void Matanda()
     {
+        Language2.SetActive(true);
+    }
+    public void MatandaTagalog()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+    public void MatandaEnglish()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
 
     public void Quit()
