@@ -16,6 +16,8 @@ public class Woodcutter_movement : MonoBehaviour
     public GameObject control;
     public GameObject finish;
     private Player playerInput;
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
     private void Awake()
     {
         playerInput = new Player();
@@ -76,6 +78,10 @@ public class Woodcutter_movement : MonoBehaviour
             Destroy(other.gameObject);
             control.gameObject.SetActive(false);
             finish.gameObject.SetActive(true);
+            //BUKAS
+            tagalogsbukas.gameObject.SetActive(true);
+            //SARADO
+            tagalogsarado.gameObject.SetActive(false);
         }
     }
 }

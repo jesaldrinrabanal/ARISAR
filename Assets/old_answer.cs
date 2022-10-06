@@ -11,12 +11,18 @@ public class old_answer : MonoBehaviour
     public GameObject Sapphirex;
     public GameObject Purpx;
     public GameObject goldx;
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
     public void Gold()
     {
         Debug.Log("GOLD");
         finish.gameObject.SetActive(true);
         correct.gameObject.SetActive(false);
         goldx.gameObject.SetActive(true);
+        //BUKAS
+        tagalogsbukas.gameObject.SetActive(true);
+        //SARADO
+        tagalogsarado.gameObject.SetActive(false);
     }
     public void Blue()
     {

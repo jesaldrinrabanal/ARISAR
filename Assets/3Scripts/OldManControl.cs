@@ -17,6 +17,8 @@ public class OldManControl : MonoBehaviour
     public GameObject FINISH;
     public GameObject control;
     public GameObject chest;
+    public GameObject tagalogsbukas;
+    public GameObject tagalogsarado;
     public bool holding = false;
     
     private Player playerInput;
@@ -114,6 +116,10 @@ public class OldManControl : MonoBehaviour
             holding = false;
             FINISH.gameObject.SetActive(true);
             chest.gameObject.SetActive(true);
+            //BUKAS
+            tagalogsbukas.gameObject.SetActive(true);
+            //SARADO
+            tagalogsarado.gameObject.SetActive(false);
         }
     }
 }
