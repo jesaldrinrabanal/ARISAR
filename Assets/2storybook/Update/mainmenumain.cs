@@ -56,6 +56,7 @@ public class mainmenumain : MonoBehaviour
     public void LangBack()
     {
         Language.SetActive(false);
+        Language2.SetActive(false);
         closeSound.Play();
     }
     public void Manok()
