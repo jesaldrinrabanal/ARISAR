@@ -28,6 +28,12 @@ public class SelectStorybook : MonoBehaviour
         home.Play();
 
     }
+    public void OldBackEng()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        home.Play();
+
+    }
     public void ManokBackEng()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
