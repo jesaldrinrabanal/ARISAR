@@ -12,6 +12,11 @@ public class mainmenumain : MonoBehaviour
     public GameObject Language;
     public GameObject Language2;
     public AudioSource closeSound;
+    public GameObject canvasX;
+    public GameObject page1;
+    public GameObject page2;
+    public GameObject page3;
+    public GameObject page4;
     public void StartApp()
     {
         Select.SetActive(true);
@@ -35,10 +40,12 @@ public class mainmenumain : MonoBehaviour
     }
     public void SelectBack()
     {
+       
         Select.SetActive(false);
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
         closeSound.Play();
+        
     }
     public void Help()
     {
@@ -52,16 +59,22 @@ public class mainmenumain : MonoBehaviour
         Menu.SetActive(true);
         canvaseffect.SetActive(true);
         closeSound.Play();
+        page1.gameObject.SetActive(true);
+        page2.gameObject.SetActive(false);
+        page3.gameObject.SetActive(false);
+        page4.gameObject.SetActive(false);
     }
     public void LangBack()
     {
         Language.SetActive(false);
         Language2.SetActive(false);
+        canvasX.gameObject.SetActive(true);
         closeSound.Play();
     }
     public void Manok()
     {
         Language.SetActive(true);
+        canvasX.gameObject.SetActive(false);
     }
     public void ManokTagalog()
     {
@@ -74,6 +87,7 @@ public class mainmenumain : MonoBehaviour
     public void Matanda()
     {
         Language2.SetActive(true);
+        canvasX.gameObject.SetActive(false);
     }
     public void MatandaTagalog()
     {
