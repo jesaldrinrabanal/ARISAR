@@ -28,7 +28,6 @@ public class Page4Controller : MonoBehaviour
         playerInput = new FourPlayer();
         otherAnimator = farmboy.GetComponent<Animator>();
     }
-
     private void OnEnable()
     {
         playerInput.Enable();
@@ -37,7 +36,6 @@ public class Page4Controller : MonoBehaviour
     {
         playerInput.Disable();
     }
-
 
     private void Start()
     {
@@ -48,12 +46,8 @@ public class Page4Controller : MonoBehaviour
 
     void Update()
     {
-
-
         Vector2 movementInput = playerInput.PlayerMain.Move.ReadValue<Vector2>();
         Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y).normalized;
-
-
 
         if (move.magnitude >= 0.1f)
         {
@@ -73,7 +67,7 @@ public class Page4Controller : MonoBehaviour
         {
             poster.gameObject.SetActive(true);
             anim.SetBool("Run",true);
-                playerSpeed = 0f;
+            playerSpeed = 0f;
             joystickimage.SetActive(false);
             otherAnimator.SetBool("Cheer", true);
 
@@ -82,7 +76,6 @@ public class Page4Controller : MonoBehaviour
             //SARADO
             tagalogsarado.gameObject.SetActive(false);
         }
-
     }
     private void Run()
     {
@@ -98,8 +91,5 @@ public class Page4Controller : MonoBehaviour
             anim.SetBool("Eat", true);
             eatsound.Play();
         }
-        
     }
-
-
 }
