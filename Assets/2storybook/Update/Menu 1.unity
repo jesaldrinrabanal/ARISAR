@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,7 +226,7 @@ RectTransform:
   m_GameObject: {fileID: 24603016}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -15.099962}
-  m_LocalScale: {x: -0.845502, y: -0.91225225, z: -0.86663955}
+  m_LocalScale: {x: -0.6063602, y: -0.65423083, z: -0.6215192}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1774716278}
@@ -234,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: -179.99998}
+  m_AnchoredPosition: {x: -116, y: -231}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24603018
@@ -948,82 +948,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d4f5579fb5da2f646a0c2bee91bdf6b5, type: 3}
   m_PrefabInstance: {fileID: 72706059}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &223059742
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 223059743}
-  - component: {fileID: 223059745}
-  - component: {fileID: 223059744}
-  m_Layer: 0
-  m_Name: asd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &223059743
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223059742}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -8.7}
-  m_LocalScale: {x: -2.8345299, y: -3.0583103, z: -2.9053946}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1065629793}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 366.99988, y: -232.9}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &223059744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223059742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a92b909220cd7a49ab46de25ef2209a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &223059745
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223059742}
-  m_CullTransparentMesh: 1
 --- !u!1 &248664502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234, y: -5}
+  m_AnchoredPosition: {x: -264, y: -49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &532652599
@@ -1858,7 +1782,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1065629793}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1991,7 +1915,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1065629793}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2692,7 +2616,7 @@ RectTransform:
   m_GameObject: {fileID: 836853349}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -15.099962}
-  m_LocalScale: {x: -0.845502, y: -0.91225225, z: -0.86663955}
+  m_LocalScale: {x: -0.6063602, y: -0.65423083, z: -0.6215192}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1774716278}
@@ -2700,7 +2624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306.5, y: -179.99998}
+  m_AnchoredPosition: {x: -315.5, y: -231}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &836853351
@@ -3945,7 +3869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1065629793
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3959,7 +3883,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1547813435}
-  - {fileID: 223059743}
   - {fileID: 537123450}
   - {fileID: 549155745}
   m_Father: {fileID: 939820052}
@@ -3992,8 +3915,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Note: \r\n\u2022 Find a good lighting source for the best experience of
     using this app. \r\n\u2022 Keep a slight elevated angle of camera towards the
-    target image or book pages. \r\n\u2022 Avoid over the top or too low angle. \r\n\u2022
-    Make sure that the entire page is visible when using this app."
+    target image or book pages. \r\n\u2022 Avoid too low angle. \r\n\u2022 Make sure
+    that the entire page is visible when using this app."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5669,7 +5592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 364.99985, y: 93.999916}
+  m_AnchoredPosition: {x: 364.99985, y: -65}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547813436
@@ -6621,12 +6544,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'After you select a specific storybook or your choice you will see the
     reload button, home button and language. By clicking the        button you can
-    fix scene and load the app.
+    fix and reload the scene if it is not appearing or not properly showing.
 
 
-    In clicking the         button it will just
-    go back to the menu or dashboard of the app. In language you can choose between
-    english or filipino narration and subtitle that you want.'
+    Clicking
+    the      button it will go back to the menu or dashboard of the app. In language
+    you can choose between English or Filipino narration and subtitle that you want.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7892,7 +7815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968274828299510632, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 968274828299510633, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_Pivot.x
@@ -8012,7 +7935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968274829428468125, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -746
+      value: -787
       objectReference: {fileID: 0}
     - target: {fileID: 968274829428468194, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8032,7 +7955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968274829668861292, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 968274829668861293, guid: bd6795319b4a24646a5af61c689f6cdc, type: 3}
       propertyPath: m_LocalScale.x
