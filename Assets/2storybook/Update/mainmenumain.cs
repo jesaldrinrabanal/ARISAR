@@ -17,6 +17,9 @@ public class mainmenumain : MonoBehaviour
     public GameObject page2;
     public GameObject page3;
     public GameObject page4;
+
+    public Animator transition;
+    public float transitionTime = 1f;
     public void StartApp()
     {
         Select.SetActive(true);
@@ -78,11 +81,11 @@ public class mainmenumain : MonoBehaviour
     }
     public void ManokTagalog()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
     public void ManokEnglish()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
     }
     public void Matanda()
     {
@@ -91,16 +94,26 @@ public class mainmenumain : MonoBehaviour
     }
     public void MatandaTagalog()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 3));
     }
     public void MatandaEnglish()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 4));
     }
 
     public void Quit()
     {
         Debug.Log("QUIT!");
         Application.Quit();
+    }
+
+
+    
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(levelIndex);
     }
 }
