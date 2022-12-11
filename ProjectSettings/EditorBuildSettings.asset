@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/2storybook/Update/Menu 1.unity
-    guid: 4b2cebffaa905364293d769ab292a043
+    path: Assets/2storybook/FINAL-SCENES/Dashboard.unity
+    guid: 7a6780a13b2cfb24880f0391fcff54b5
   - enabled: 1
-    path: Assets/2storybook/Manok 2.unity
+    path: Assets/2storybook/FINAL-SCENES/Manok - Tagalog.unity
     guid: 2bf669893b9e8a04cb4ead02aed512ac
   - enabled: 1
-    path: Assets/2storybook/English.unity
+    path: Assets/2storybook/FINAL-SCENES/Manok - English.unity
     guid: 9c56c12d975a04946a8445d1454ea1d4
   - enabled: 1
-    path: Assets/2storybook/TheOldMiser/Merge.unity
-    guid: b0014b2cd60b2144ca4aad444bc24c3a
+    path: Assets/2storybook/FINAL-SCENES/Matanda - Tagalog.unity
+    guid: 00a0e50445fa39644bf85036532f5734
   - enabled: 1
     path: Assets/2storybook/TheOldMiser/Old-English.unity
     guid: bd94e9694a65fa04faa3797aeefbdb9e

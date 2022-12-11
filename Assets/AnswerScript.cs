@@ -23,9 +23,9 @@ public class AnswerScript : MonoBehaviour
             bibe.gameObject.SetActive(true);
             completed.gameObject.SetActive(true);
            
-            //BUKAS
+            //BUKAS - SUBTITLE
             tagalogsbukas.gameObject.SetActive(true);
-            //SARADO
+            //SARADO - subtitle
             tagalogsarado.gameObject.SetActive(false);
         }
         else

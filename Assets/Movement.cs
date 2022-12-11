@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     private Animator anim;
     public float speed = 6f;
     public float turnsmooth = 3f;
-    float turnSmoothVelocity;
+    float turnSmoothVelocity;                       //CHICKEN MOVEMENT 
    
 
     Vector3 velocity;
