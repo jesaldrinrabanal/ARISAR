@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/2storybook/FINAL-SCENES/Dashboard.unity
     guid: 7a6780a13b2cfb24880f0391fcff54b5
   - enabled: 1
-    path: Assets/2storybook/FINAL-SCENES/Manok - Tagalog.unity
+    path: Assets/2storybook/FINAL-SCENES/ManokTag.unity
     guid: 2bf669893b9e8a04cb4ead02aed512ac
   - enabled: 1
-    path: Assets/2storybook/FINAL-SCENES/Manok - English.unity
+    path: Assets/2storybook/FINAL-SCENES/ManokEng.unity
     guid: 9c56c12d975a04946a8445d1454ea1d4
   - enabled: 1
-    path: Assets/2storybook/FINAL-SCENES/Matanda - Tagalog.unity
+    path: Assets/2storybook/FINAL-SCENES/OldTag.unity
     guid: 00a0e50445fa39644bf85036532f5734
   - enabled: 1
     path: Assets/2storybook/TheOldMiser/Old-English.unity
