@@ -20,6 +20,7 @@ public class Page4Controller : MonoBehaviour
     private FourPlayer playerInput;
     public GameObject farmboy;
     Animator otherAnimator;
+    public AudioSource chickenwalk;
 
     public GameObject tagalogsbukas;
     public GameObject tagalogsarado;
@@ -61,6 +62,7 @@ public class Page4Controller : MonoBehaviour
         else
         {
             anim.SetBool("Run", false);
+            chickenwalk.enabled = false;
         }
 
         if(foodcount == 8)
@@ -79,6 +81,7 @@ public class Page4Controller : MonoBehaviour
     }
     private void Run()
     {
+        chickenwalk.enabled = true;
         anim.SetBool("Run", true);
     }
     private void OnTriggerEnter(Collider other)

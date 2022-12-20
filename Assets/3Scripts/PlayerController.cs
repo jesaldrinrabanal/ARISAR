@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float playerSpeed = 2.0f;
     public float turnsmooth = 3f;
+    public AudioSource walk;
     float turnSmoothVelocity;
 
     private Player playerInput;
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.SetBool("Run", false);
+            walk.enabled = false;
         }
 
 
@@ -63,6 +65,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Run()
     {
+        walk.enabled = true;
         anim.SetBool("Run", true);
     }
     private void OnCollisionEnter(Collision collision)

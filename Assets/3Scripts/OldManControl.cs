@@ -21,6 +21,8 @@ public class OldManControl : MonoBehaviour
     public GameObject tagalogsarado;
     public bool holding = false;
     
+    public AudioSource walking;
+    
     private Player playerInput;
     private void Awake()
     {
@@ -75,9 +77,12 @@ public class OldManControl : MonoBehaviour
         }
         else if (move.magnitude <= 0.1f && holding == false)
         {
+            walking.enabled = false;
             anim.SetBool("Walk", false);
         }
-      
+       
+
+
 
 
 
@@ -86,14 +91,17 @@ public class OldManControl : MonoBehaviour
 
     private void IdleC()
     {
+        walking.enabled = false;
         anim.SetBool("Carry", false);
     }
     private void Carry()
     {
+        walking.enabled = true;
         anim.SetBool("Carry", true);
     }
     private void Walk()
     {
+        walking.enabled = true;
         anim.SetBool("Walk", true);
     }
    

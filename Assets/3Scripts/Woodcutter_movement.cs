@@ -18,6 +18,7 @@ public class Woodcutter_movement : MonoBehaviour
     private Player playerInput;
     public GameObject tagalogsbukas;
     public GameObject tagalogsarado;
+    public AudioSource walking;
     private void Awake()
     {
         playerInput = new Player();
@@ -60,6 +61,7 @@ public class Woodcutter_movement : MonoBehaviour
         else
         {
             anim.SetBool("Run", false);
+            walking.enabled = false;
         }
 
 
@@ -67,6 +69,7 @@ public class Woodcutter_movement : MonoBehaviour
     }
     private void Run()
     {
+        walking.enabled = true;
         anim.SetBool("Run", true);
     }
  
