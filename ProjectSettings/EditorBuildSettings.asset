@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/2storybook/FINAL-SCENES/Dashboard.unity
     guid: 7a6780a13b2cfb24880f0391fcff54b5
   - enabled: 1
-    path: Assets/2storybook/FINAL-SCENES/ManokTag.unity
-    guid: 2bf669893b9e8a04cb4ead02aed512ac
+    path: Assets/2storybook/FINAL-SCENES/manoktagmod.unity
+    guid: 0b0ca876a5e0d0044ae41daf58d2de2f
   - enabled: 1
     path: Assets/2storybook/FINAL-SCENES/ManokEng.unity
     guid: 9c56c12d975a04946a8445d1454ea1d4
